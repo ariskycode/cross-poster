@@ -1,0 +1,27 @@
+{
+  "name": "cross-poster",
+  "version": "1.0.0",
+  "description": "GitHub Action for cross-posting across multiple micro-blogging sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariskycode/cross-poster.git"
+  },
+  "keywords": [
+    "cross-post",
+    "blogging",
+    "dev.to",
+    "hashedin",
+    "medium",
+    "stack-overflow"
+  ],
+  "author": "ariskycode",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ariskycode/cross-poster/issues"
+  },
+  "homepage": "https://github.com/ariskycode/cross-poster#readme"
+}

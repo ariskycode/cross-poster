@@ -1,0 +1,12 @@
+name: 'Cross-Posting Action'
+description: 'Action to cross post across multiple micro-blogging sites'
+author: 'Abdul Rahim Shaikh'
+
+inputs:
+  API_TOKEN: 
+    description: 'API Token for Dev.to'
+    required: true 
+
+runs:
+  using: node16
+  main: 'dist/index.js'
