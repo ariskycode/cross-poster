@@ -1,0 +1,21 @@
+name: Test Github Action
+
+on: 
+  push:
+    
+  workflow_dispatch:
+    
+jobs:
+
+  test:
+    name: Test Cross-Posting Action
+    permissions:
+      contents: read
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Test Action
+        uses: ./
