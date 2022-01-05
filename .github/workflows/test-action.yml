@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Action
-        uses: ariskycode/cross-poster@v1.0.1
+        uses: ariskycode/cross-poster@v1.0.0-test_1
