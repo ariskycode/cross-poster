@@ -14,5 +14,3 @@ jobs:
     steps:
       - name: Test Action
         uses: ariskycode/cross-poster@v1.0.1
-          with:
-            API_TOKEN: 'abc'
