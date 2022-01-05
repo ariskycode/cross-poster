@@ -4,13 +4,12 @@ on:
   push:
     
   workflow_dispatch:
-    
+
 jobs:
 
   test:
     name: Test Cross-Posting Action
-    permissions:
-      contents: read
+
 
     runs-on: ubuntu-latest
     steps:
