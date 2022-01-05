@@ -4,6 +4,7 @@
   "description": "GitHub Action for cross-posting across multiple micro-blogging sites",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ariskycode/cross-poster/issues"
   },
-  "homepage": "https://github.com/ariskycode/cross-poster#readme"
+  "homepage": "https://github.com/ariskycode/cross-poster#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.1"
+  }
 }
