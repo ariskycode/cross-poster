@@ -10,12 +10,8 @@ jobs:
   test:
     name: Test Cross-Posting Action
 
-
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
       - name: Test Action
         uses: ariskycode/cross-poster@v1.0.1
           with:
